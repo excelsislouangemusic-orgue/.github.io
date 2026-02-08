@@ -1,2 +1,14 @@
-# .github.io
-Partitions liturgiques au format Lilypond
+<!--%# .github.io--!>
+<!--%Partitions liturgiques au format Lilypond--!>
+
+<!--<!DOCTYPE html>--!>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--<title>Mes partitions LilyPond</title>--!>
+</head>
+<body>
+  <h1>Bienvenue sur mon site</h1>
+  <p>Ici je publierai mes partitions.</p>
+</body>
+</html>
