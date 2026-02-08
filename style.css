@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.partition-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #222;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background: #555;
+}
+
+.partition-page img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+    margin-top: 40px;
+}
